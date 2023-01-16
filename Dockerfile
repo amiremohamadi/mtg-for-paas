@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-EXPOSE 80
+EXPOSE 443
 
 WORKDIR /app
 COPY entrypoint.sh .
